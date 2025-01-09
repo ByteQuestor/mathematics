@@ -215,10 +215,51 @@ $$
 **反对幂三指**
 
 1. 幂函数
+
 2. 指数函数
+
 3. 对数函数
+
 4. 三角函数
+
+   + 牢记**六桂图**
+
+   + 三角函数常用公式
+     $$
+     cos2x=2cos^2x-1=1-sin^2x=cos^2x-sin^2x
+     $$
+
+     $$
+     sin2x=2cosxsinx
+     $$
+
+     $$
+     sin(\alpha±\beta)=sin\alpha cos\beta±cos\alpha sin\beta\\
+     cos(\alpha±\beta)=cos\alpha cos\beta±sin\alpha sin\beta
+     $$
+
+   + 降幂公式
+     $$
+     cos^2x=\frac{cos2x+1}{2}
+     $$
+
+     $$
+     sin^2x=\frac{1-cos2x}{2}
+     $$
+
+   + 二倍角公式【其实就是常用公式的推广】
+     $$
+     cos\frac{x}{2}=2cos^2\frac{x}{4}-1
+     $$
+
+     $$
+     cosx=2cos^2\frac{x}{2}-1
+     $$
+
+     
+
 5. 反三角函数
+
 6. 初等函数
 
 ## 2，极限
@@ -300,24 +341,22 @@ $$
      \lim\limits\frac{\alpha(x)}{\beta(x)}=0，则称\alpha(x)是比\beta(x)高阶的无穷小【或\alpha(x)是\beta(x)的高阶无穷小】
      $$
      
-
    + 低阶无穷小
      $$
      \lim\limits_{x\to\\x_0}\frac{\alpha(x)}{\beta(x)}=∞，则称\alpha(x)是比\beta(x)低阶的无穷小【或\alpha(x)是\beta(x)的低阶无穷小】
      $$
-
+   
    + 同阶无穷小
      $$
      \lim\limits_{x\to\\x_0}\frac{\alpha(x)}{\beta(x)}=C(C≠0)，则称\alpha(x)是比\beta(x)同阶的无穷小【或\alpha(x)是\beta(x)的同阶无穷小】
      $$
      
-
    + 等价无穷小
      $$
      \lim\limits_{x\to\\x_0}\frac{\alpha(x)}{\beta(x)}=1，则称\alpha(x)是比\beta(x)等价的无穷小【或\alpha(x)是\beta(x)的等价无穷小】
      $$
      
-
+   
 5. **常见的等价无穷小**
    **注意：不要局限于`x`这个符号，可以将`x`换成`▢`来推广**
    $$
@@ -337,9 +376,8 @@ $$
    (11)1- \cos x\sim\frac{1}{2}x^2
    $$
    
-
 6. 等价无穷小的重要性质
-   
+  
 
 ### 2.4，重要极限
 
@@ -375,7 +413,6 @@ $$
    ②f(x_0)要存在
    $$
    
-
 2. 左连续与右连续
 
    > 定理1：函数`f(x)`在点`x₀`处连续的**充分必要条件**是函数`f(x)`在点`x₀`处左连续且右连续
@@ -398,7 +435,6 @@ $$
    ③极限存在但不等于函数值\\
    $$
    
-
 2. 函数间断点的分类
 
    + 第一类间断点【左右极限都存在】
